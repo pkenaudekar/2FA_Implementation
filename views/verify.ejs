@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2FA Demo</title>
+    </head>
+    <body>
+        <h1 style="text-align:center">Enter the code to verify below</h1>
+        <div style="margin: auto;width: 50%;border: 3px solid green;padding: 10px;">
+            <form action="/check" method="POST">
+                <label for="code">Code:</label>
+                <input type="text" id="code" name="code"><br><br>            
+                <input type="submit" value="Check">               
+            </form>
+        </div>        
+                  
+    </body>
+</html> 
